@@ -1,13 +1,22 @@
 const express = require('express');
-const { savedNotes } = require('./Develop/db/db.json');
 
-const PORT = process.env.PORT || 3001;
 const app = express();
+const PORT = process.env.PORT || 3001;
 
 
-app.get('/api/notes', (req, res) => {
-  res.json(savedNotes);
-});
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
+
+//Set a static folder
+app.use(express.static('public'))
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+app.use(apiRoutes)
+app.use(htmlRoutes)
+
+
 
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
