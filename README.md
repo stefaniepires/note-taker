@@ -32,4 +32,4 @@ https://note-taker-st.herokuapp.com/
   Email: stefaniectinsley@gmail.com
   GitHub: https://github.com/steftinsley
   
-  ![Screenshot]()
+  ![Screenshot](https://github.com/steftinsley/note-taker/blob/main/screenshot%20of%20app.gif)
