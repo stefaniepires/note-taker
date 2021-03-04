@@ -29,7 +29,7 @@ https://note-taker-st.herokuapp.com/
 
   ### Questions?
   Contact me at 
-  Email: stefaniectinsley@gmail.com
-  GitHub: https://github.com/steftinsley
+  Email: stefaniepires91@gmail.com
+  GitHub: https://github.com/stefaniepires
   
   ![Screenshot](https://github.com/steftinsley/note-taker/blob/main/screenshot%20of%20app.gif)
